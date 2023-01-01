@@ -1,0 +1,50 @@
+{
+
+    "workbench.colorTheme": "Quiet Light",
+    "terminal.integrated.defaultProfile.osx": "bash",
+    "terminal.integrated.profiles.osx": {
+        "bash": {
+          "path": ["/bin/bash"],
+          "args": [ // use custom profile to source dif variables
+            "--rcfile",
+            "./bash_profiles/default"
+          ],
+          "icon": "cloud",
+          "color": "terminal.ansiBlack"
+        }
+    },
+    "git.showActionButton": {
+      "commit": false,
+      "publish": false,
+      "sync": false,
+    },
+    "git.postCommitCommand": "push",
+    "git.confirmSync": false,
+    "git.autofetch": true,
+    "git.enableSmartCommit": true,
+    "git.enableCommitSigning": true,
+    "git.fetchOnPull": true,
+    "git.openDiffOnClick": false,
+    "go.inferGopath": true,
+    "terminal.integrated.enableMultiLinePasteWarning": false,
+    "explorer.confirmDelete": false,
+    "redhat.telemetry.enabled": true,
+    "yaml.customTags": [
+        "!reference sequence"
+    ],
+    "yaml.schemas": {
+      "https://www.schemastore.org/api/json/catalog.json": ".gitlab-ci.yml",
+      "file:///Users/zach.bialik/.vscode/extensions/atlassian.atlascode-2.10.12/resources/schemas/pipelines-schema.json": "bitbucket-pipelines.yml"
+    },
+    "git.ignoreRebaseWarning": true,
+    "diffEditor.ignoreTrimWhitespace": false,
+    "terminal.integrated.inheritEnv": false,
+    "task.problemMatchers.neverPrompt": false,
+    "editor.minimap.enabled": false,
+    "editor.renderWhitespace": "none",
+    "security.workspace.trust.untrustedFiles": "open",
+    "terminal.integrated.copyOnSelection": true,
+    "python.venvPath": "~/venv",
+    "python.terminal.activateEnvironment": false,
+    "workbench.startupEditor": "none"
+}
