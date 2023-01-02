@@ -1,0 +1,112 @@
+{
+    "get": "players",
+    "parameters": {
+        "league": "39",
+        "season": "2022",
+        "team": "42",
+        "id": "19959"
+    },
+    "errors": [],
+    "results": 1,
+    "paging": {
+        "current": 1,
+        "total": 1
+    },
+    "response": [
+        {
+            "player": {
+                "id": 19959,
+                "name": "B. White",
+                "firstname": "Benjamin William",
+                "lastname": "White",
+                "age": 25,
+                "birth": {
+                    "date": "1997-10-08",
+                    "place": "Poole",
+                    "country": "England"
+                },
+                "nationality": "England",
+                "height": "186 cm",
+                "weight": "76 kg",
+                "injured": false,
+                "photo": "https://media.api-sports.io/football/players/19959.png"
+            },
+            "statistics": [
+                {
+                    "team": {
+                        "id": 42,
+                        "name": "Arsenal",
+                        "logo": "https://media-1.api-sports.io/football/teams/42.png"
+                    },
+                    "league": {
+                        "id": 39,
+                        "name": "Premier League",
+                        "country": "England",
+                        "logo": "https://media.api-sports.io/football/leagues/39.png",
+                        "flag": "https://media.api-sports.io/flags/gb.svg",
+                        "season": 2022
+                    },
+                    "games": {
+                        "appearences": 15,
+                        "lineups": 15,
+                        "minutes": 1247,
+                        "number": null,
+                        "position": "Defender",
+                        "rating": "7.066666",
+                        "captain": false
+                    },
+                    "substitutes": {
+                        "in": 0,
+                        "out": 8,
+                        "bench": 0
+                    },
+                    "shots": {
+                        "total": 5,
+                        "on": null
+                    },
+                    "goals": {
+                        "total": 0,
+                        "conceded": 0,
+                        "assists": 2,
+                        "saves": null
+                    },
+                    "passes": {
+                        "total": 826,
+                        "key": 13,
+                        "accuracy": 47
+                    },
+                    "tackles": {
+                        "total": 29,
+                        "blocks": 7,
+                        "interceptions": 10
+                    },
+                    "duels": {
+                        "total": 102,
+                        "won": 58
+                    },
+                    "dribbles": {
+                        "attempts": 11,
+                        "success": 4,
+                        "past": null
+                    },
+                    "fouls": {
+                        "drawn": 13,
+                        "committed": 10
+                    },
+                    "cards": {
+                        "yellow": 3,
+                        "yellowred": 0,
+                        "red": 0
+                    },
+                    "penalty": {
+                        "won": null,
+                        "commited": null,
+                        "scored": 0,
+                        "missed": 0,
+                        "saved": null
+                    }
+                }
+            ]
+        }
+    ]
+}
